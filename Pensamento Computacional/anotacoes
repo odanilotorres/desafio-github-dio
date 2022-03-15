@@ -1,0 +1,103 @@
+1 - Visão Geral.
+.
+4 pilares
+Decomposição
+Reconhecimento de padrões
+Abstração
+Design de Algoritmos
+
+Processo contínuo
+Definir um solução
+Testar a solução
+Aperfeiçoamento da solução encontrada
+
+Habilidades complementares
+Raciocínio lógico
+É uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema.
+Classificação
+Indução (Fenômeno observado > cria leis e teorias)
+Dedução (Leis e teorias > cria previsões e explicações)
+Abdução (Conclusão determina a premissa)
+Aperfeiçoamento
+Partir de uma solução, determinar pontos de melhora e refinamento.
+Encontrar solução eficiente
+Otimizar processos
+Simplificar linhas de código
+Funções bem definidas
+
+
+2 - Pilares computacionais
+
+
+> Decomposição
+Dado um problema complexo, devemos quebrá-lo em problemas menores (análise). Portanto problemas mais fáceis e gerenciáveis. Após isso vamos combinar os elementos recompondo o problema original (sintese).
+Ordem de execução de tarefas menores
+Sequencial
+Dependência entre tarefas, executadas em fila.
+Paralelo
+Tarefas podem ser executadas concomitantemente (+ eficiente).
+
+> Reconhecimento de Padrões
+Modelo base
+Estrutura invariante
+Repetição
+
+		
+
+Por que determinar padrões ?
+É uma forma de generalizar, com objetivo de obter resoluções para problemas diferentes. 
+	
+Classificação de objetos
+Classes
+Categorias
+
+	Como o computador reconhece padrões ?
+Representação de atributos
+Aprendizado - Conceito associado ao objeto
+Armazenar dados
+Regras de decisão
+
+	Aplicações
+Classificação de dados
+Reconhecimento de imagem
+Reconhecimento de fala
+Análise de cenas
+Classificação de documentos
+	
+	> Abstração
+Abstrair > Observar um ou mais elementos, avaliando caracteristicas e propriedades de cada um.
+Abstração > Processo intelectual de isoalmento de um objeto da realidade.
+
+Como classificar os dados ?
+Características
+Pontos essenciais
+Generalizar x detalhar
+	
+> Algoritmo
+O computador não opera sozinho, ele necessita de instruções detalhadas do que fazer.
+O principal objetivo de um computador é receber, manipular e armazenar os dados.
+Processo de resolução de problemas
+O que precisa ser feito ?  + Qual a ordem de execução ? > Instruções
+Desenvolvimento do programa.
+Análise
+Estudo e definição dos dados de entrada e saída
+Algoritmo
+Descreve o problema por meio de ferramentas narrativas, fluxograma e pseudocódigo.
+É uma sequencia de passos com um objetivo definido, execução de tarefas, conjunto de operações que resultam em uma sucessão finita de ações.
+Codificação
+O algoritmo é codificado de acordo com a linguagem de programação escolhida.
+Como definir um algoritmo ?
+Compreensão do problema
+Definição dos dados de entrada
+Definir processamento
+Definir dados de saída
+Utilizar um método de construção
+Teste e diagnóstico
+Construção de algoritmos
+Narrativa
+Utilização da linguagem natural (Diversas interpretações)
+Fluxograma
+Utilização de símbolos pré definidos (Necessita conhecimento prévio da estrutura e símbolos)
+Pseudocódigo
+Portugol (Passos a serem seguidos)
+
