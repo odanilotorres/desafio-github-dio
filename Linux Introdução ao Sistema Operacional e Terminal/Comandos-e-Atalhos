@@ -6,10 +6,15 @@ ls nomeDaPasta > lista os arquivos e diretŕios que existem dentro da pasta sele
 ls -l > lista nome dos arquivos com detalhes
 cd nomeDaPasta > entrar na pasta selecionada
 mkdir nomaDaPasta > criar nova pasta no local que estamos.
+rmdir nomeDaPasta > remover diretório
+rm nomeDoArquivo > remover arquivo  
 cd .. > volta um diretório
 cd / > vai ao diretório raiz
 man comando > maual do comando
 !! > historico do terminal
+mv NomeAntigoDaPAtas NomeNovoDaPasta > alterar o nome da pasta/arquivo
+touch nomedoArquivo.txt > cria um arquivo vazio
+cp > copiar arquivo.
 
 Atalhos do terminal
 
