@@ -12,3 +12,5 @@ cat nomeDoArquivo | more > Visualização do arquivo em paginação
 cat nomeDoArquivo | less > Visualização do arquivo em paginação
 cat nomeDoArquivo & cat nomeDoArquivo2 > visualização de dois arquivos separando os mesmos
 cat nomeDoArquivo && cat nomeDoArquivo2 > visualização de dois arquivos sem separar os mesmos
+mkdir nomeDoDiretorio $$ cd nomeDoDiretorio > criar e automaticamente entrar no diretorio pelo terminal
+
