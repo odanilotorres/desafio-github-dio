@@ -1,3 +1,14 @@
 #Introdução Linux
 
-Testando
+Primeiros comandos
+
+pwd > mostra o local que estamos
+ls > lista os arquivos e diretórios do local que estamos
+ls nomeDaPasta > lista os arquivos e diretŕios que existem dentro da pasta selecionada
+ls -l > lista nome dos arquivos com detalhes
+cd nomeDaPasta > entrar na pasta selecionada
+mkdir nomaDaPasta > criar nova pasta no local que estamos.
+cd .. > volta um diretório
+cd / > vai ao diretório raiz
+man comando > maual do comando
+!! > historico do terminal
