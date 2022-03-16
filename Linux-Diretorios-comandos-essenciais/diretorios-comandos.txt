@@ -8,3 +8,7 @@ tail nomeDoArquivo > Mostra as últimas 10 linhas do arquivo
 cal > mostra um calendario
 date > mostra a data atual
 | > permite usar dois comandos de uma vez.
+cat nomeDoArquivo | more > Visualização do arquivo em paginação
+cat nomeDoArquivo | less > Visualização do arquivo em paginação
+cat nomeDoArquivo & cat nomeDoArquivo2 > visualização de dois arquivos separando os mesmos
+cat nomeDoArquivo && cat nomeDoArquivo2 > visualização de dois arquivos sem separar os mesmos
