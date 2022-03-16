@@ -1,0 +1,10 @@
+Novos comandos no terminal
+
+nano nomeDoArquito.txt > editor de texto(edita o conteudo do arquivo)
+cat nomeDoArquivo > Visualizar o que está dentro do arquivo
+tac nomeDoArquivo > Visualiza e inverte as linhas do arquivo
+head nomeDoArquivo > Mostra as primeiras 10 linhas do arquivo
+tail nomeDoArquivo > Mostra as últimas 10 linhas do arquivo
+cal > mostra um calendario
+date > mostra a data atual
+| > permite usar dois comandos de uma vez.
