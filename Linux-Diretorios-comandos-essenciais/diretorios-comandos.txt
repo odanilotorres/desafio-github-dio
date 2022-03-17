@@ -14,3 +14,35 @@ cat nomeDoArquivo & cat nomeDoArquivo2 > visualização de dois arquivos separan
 cat nomeDoArquivo && cat nomeDoArquivo2 > visualização de dois arquivos sem separar os mesmos
 mkdir nomeDoDiretorio $$ cd nomeDoDiretorio > criar e automaticamente entrar no diretorio pelo terminal
 
+> Diretórios
+
+/bin/ > Binários principais dos usuários - executáveis do linux
+/boot/ > arquivos do sistema de boot
+/dev/ > Arquivo de dispositivos
+/etc/ > Arquivos de configuração do sistema
+/home/ > Diretório dos usuários comuns do sistema
+/lib/ > Bibliotécas essenciais do sistema e os módulos do Kernel
+/media/ > Diretório de montagem e dispositivos
+/mnt/ > Diretório de montagem de dispositivos - mesmo que "media"
+/opt/ > Instalação de programas não oficiais da distribuição ou por conta do usuário
+/sbin/ > Armazena arquivos executáveis que representam comandos administrativos. Ex: shutdown
+/srv/ > Diretório para dados de serviços fornecidos pelo sistema
+/tmp/ > Diretório temporário
+/usr/ > Segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas
+/var/ > Diretório com arquivos variáveis gerados pelos programas do sistema
+/root/ > Diretório do usuário root -  
+/proc/ > Diretório virtual controlado pelo kernel
+
+> Comandos
+
+lspci > visualizar todos os hardwares conectados via pci
+lsusb > visualizar todos os dispositivos conectados via usb
+lscpu > Mostra todas as informações sobre cpu
+arch > mostra a arquiteruta do sistema
+uname > kernel que a distro usa
+uname -r > versão do kernel
+free > mostra a memória física e a swap
+du -h ~ > mostra quando do diretório pessoal usa do hd
+reboot > reinicializa o sistema
+shutdown > Desliga o sistema
+lshw > Lista todos os hardwares que encontrar
