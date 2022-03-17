@@ -2,4 +2,4 @@
 Repositório criado para o desafio de projetos
 
 
-## Aqui será compratilhado aminha trilha de estudos do curso "Cognizant Cloud Data Engineer"
+## Aqui será compratilhado a minha trilha de estudos do curso "Cognizant Cloud Data Engineer" na Digital innovation One.
