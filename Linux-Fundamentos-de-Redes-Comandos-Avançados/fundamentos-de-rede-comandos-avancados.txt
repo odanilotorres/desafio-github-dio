@@ -1,4 +1,4 @@
-Fundamentos de Rede
+> Fundamentos de Rede
 
 Rede Wan > Wide Area Network ou World Area Network é uma rede geograficamente Distribuída
 Rede Man > Metropolitan Area Network é uma rede metropolitana que interligam várias rede locais.
@@ -19,3 +19,39 @@ Ex: eth0 - Placa de rede Ethernet - Cabeada
 
 A interface loopback é um tipo especial de interface que permite fazer conexôes com você mesmo, com ela, você pode testar vários programas de rede sem interferir em sua rede. padrão, o endereço IP 127.0.0.1 foi escolhido para loopback
 
+> Comando ifconfig
+
+ifconfig > Saber o ip da nossa máquina
+hostname > Nome do computador na rede.
+hostname -I > Teremos o endereço ip.
+hostname -i > Endereço loopback
+who > Como estamos loganos na rede
+whoami > nome do usuário que estou logado
+ping > Protocolo icmp, que verifica se o host está ativo ou inativo.
+ping host -w 4 > envia 4 pacote para verificar o host
+dig host > Todas as informações sobre o dns do host
+dig host +short > Mostra somento o endereço dns do host
+traceroute host > traçar a rota até o host, informações do nós que existem até o host
+whois host > mais informações sobre o host
+finger > Mostra toda a informação do usuário que está logado
+alias apelido='comando' > Dar um apelido ao comando
+nl arquivo > contar quantas linhas o arquivo tem
+wc-l arquivo > saber quantas linhas tem o arquivo
+wc -w arquivo > contar o número de palavras 
+wc -c arquivo > Número de kbytes
+wc -m arquivo > Número de caracteres
+ls - a > Arquivos ocultos
+sort -n arquivo > organiza a saída em ordem numérica
+last reboot > Mostra todas as informações de reinicialização do sistema
+time > mostra o tempo do processo
+time comando > mostra o tempo que o comando demora para ser processado
+uptime > mostra o tempo que o sistema está rodando
+cowsay "frase desejada" > Aparece uma vaquinha falando
+cowsay -d "frase desejada" > Aparece a vaquinha meio estragada falando
+cowsay -g "frase desejada" > Aparece a vaquinha do dinheiro falando
+cowsay -f modelo "frase desejada" > Aparece a vaquinha de vários tipos falando
+init 0 > Desliga a máquina
+telinit 0 > Desliga a máquina
+halt > Pede uma autenticação para desligar a máquina
+seq intervalo-de-numero > mostra o intervalo de um número até o outro
+ 
