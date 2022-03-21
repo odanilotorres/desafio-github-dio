@@ -1,0 +1,49 @@
+> Gerenciamento de Pacotes
+
+PAcotes são programas colocados dentro de um arquivo identificados por sua extensão, e inlcuem arquivos necessários para a instalação de programa.
+
+Existem pacotes com a extensão .deb, .rpm e outros
+
+> Gerenciadores
+
+São sistemas que possuem resolução automática de dependências entre pacotes, método fácil de instalação.
+Ex: dpkg, apt e yum.
+
+> Instalação
+sudo apt install pacote
+dpkg -i pacote.deb > instalar pacotes do tipo .deb
+
+> Remoçao do pacote.deb
+sudo dpkg -r nomedopacote > tem que ver o nome do pacote na descrição e ai sim vai conseguir usar esse comando.
+
+> Descrição do pacote
+sudo dpkg -I pacote.deb
+
+
+> Atualização
+sudo apt upgrade pacote
+
+> remoção
+sudo apt remove pacote
+
+> Atualização de Sistema
+apt update
+apt upgrade
+apt update && apt upgrade
+
+> Sites de pacotes
+pkgs.org
+
+> Instalação de pacotes .rpm no fedora
+rpm -ivh pacote.rmp
+sudo yum install pacote
+
+> Atualização pacote .rmp
+sudo rmp -U pacote.rpm
+yum uodate pacote
+
+> Remoção de pacotes .rpm
+rpm -e pacote.rpm
+yum remove pacote
+
+
