@@ -5,4 +5,20 @@ sudo adduser nomeDoUsuario > adicionar um usuário no pc
 su nomeDoUsuario > trocar usuário
 passwd nomeDoUsuario > Alterar a senha
 
+> Como exibir informações de login e remover um usuário
+lastlog > exibe informação de login de todos os usuários
+last > listagem de entrada e saída do usuário no sistema
+logname > exibe o nome do usuário atual logado no sistema
+id > exibe todos os identificadores do usuário
+userdel -r nomeDoUsuario > remover o usuário e a pasta pessoal dele
 
+> Como criar um grupo e gerenciar os usuários
+Grupos > Permitem organizar os usuários e definir as permissões de acesso a arquivos e diretórios de forma mais fácil
+cat /etc/group > visualizar todos os grupos que existem no pc
+groups > exitem todos os grupos que o usuário pertence
+sudo addgroup nomdeGrupo > adicionar um grupo
+
+adduser usuario grupo > adicionar usuário a um grupo
+gpasswd -a usuario grupo > adicionar usuário a um grupo
+gpasswd -d usuario grupo > remover usuário a um grupo
+groupdel grupo > remover um grupo
