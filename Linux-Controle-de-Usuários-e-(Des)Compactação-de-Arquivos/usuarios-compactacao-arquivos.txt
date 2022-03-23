@@ -1,0 +1,8 @@
+> Como adicionar usuários
+sudo adduser nomeDoUsuario > adicionar um usuário no pc
+
+> Trocar de usuário e alterar sua senha
+su nomeDoUsuario > trocar usuário
+passwd nomeDoUsuario > Alterar a senha
+
+
