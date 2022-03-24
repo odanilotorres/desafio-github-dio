@@ -17,8 +17,57 @@ Grupos > Permitem organizar os usuários e definir as permissões de acesso a ar
 cat /etc/group > visualizar todos os grupos que existem no pc
 groups > exitem todos os grupos que o usuário pertence
 sudo addgroup nomdeGrupo > adicionar um grupo
-
 adduser usuario grupo > adicionar usuário a um grupo
 gpasswd -a usuario grupo > adicionar usuário a um grupo
 gpasswd -d usuario grupo > remover usuário a um grupo
 groupdel grupo > remover um grupo
+
+> Como gerenciar permissões em diretórios e o que é o modo octal
+Permissões em arquivos e direórios servem para restringir acessos como: Leitura, escrita e execução, onde
+r - read (leitura)
+w - write (escrita)
+x - eXecution (execução)
+
+ls -lh > Verificar permissões em um diretório
+chmode > mudar a permissão de uma arquivo ou diretório
+
+> Modo octal
+A máscara octal é composta por números soba a base 8 ou seja de 0 a 7 onde:
+O primeiro dígito representa o dono do ficheiro/diretorio(u)
+O segundo dígito representa o grupo(g)
+O terceiro dígito representa os outros(o)
+
+As permissões são especificadas para cada grupo.
+
+user(owner)   group    Other
+  r w x       r w x    r w x
+  4 2 1       4 2 1    4 2 1
+
+ex: chmod 100 nomeDoArquivo > apenas esecução para o owner e nada para os outros.
+
+Se quiser mais de uma função vai somando os valores de cada função
+
+
+>Compactação, Descompactação e Arquivamento
+Compactadores são programas que diminuem o tamanho de um arquivo ou diretório.
+
+>comandos gzip, zip e bzip2
+gzip arquivo.txt > compactador muito usado, possui uma taxa excelente de compactação
+gzip -9 arquivo.txt > usa a taxa máxima de compactação
+gunzip arquivo.txt.gz > Desconpactar o arquivo .gz
+
+zip nomeDoArquivo.zip nomeDoArquivo.txt > compactar o arquivo escolhendo o nome após a compactação.
+unzip nomeDoArquivo > descompactar arquivos .zip
+
+bzip2 arquivo > compactar arquivo (mais atual)
+bzip2 -d nomdeDoArquivo.bz2 > descompactar arquivo .bz2
+
+rar a arquivo.rar arquivo > compactar arquivo .rar
+rar x arquivo.rar arquivo > descompactar arquivo .rar
+
+> Arquivadores
+tar - É um arquivador muito utilizado no Linux até mesmo em arquivos de sistema.
+tar -cf nomeDoArquivo.txt.tar nomeDoArquivo.txt > arquivando com o tar(consegue colocar vários arquivos juntos)
+tar -xvf nomdeDoArquivo.txt.tar.gz > descompactar aquivos .tar compactados com gzip.
+
+
