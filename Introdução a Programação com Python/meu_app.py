@@ -1,0 +1,5 @@
+print('Jogo da soma')
+x = input('Qual o primeiro número ? ')
+y = input('Qual o segundo número ? ')
+soma = int(x + y)
+print("A soma é " + str(soma))

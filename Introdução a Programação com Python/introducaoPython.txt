@@ -1,0 +1,22 @@
+Python
+
+Linguagem de programaçâo de alto nível
+Criado por Guido Van Rossum 1898 , Holandes.
+Fortemente tipada
+Interpretada e orientada a objetos
+Linguagem de scripts
+
+> Uso
+Desenvolvimento web
+	Django, PyQT, Pyramid, Tornado
+Desenvolvimento Desktop
+	Tkinter,PyQT, Kivy
+Ciência de dados
+	DciPy, Pandas, IPython
+Automação
+	Desenvolvimento de scripts para automação de tarefas
+> o Que é uma ide
+	Integrated Development Environment
+	IDEs possuem enermos recursos que facilitam o desenvolvimento de aplicações
+	Funções que são onerosas no dia a dia são simplificadas pelas IDEs
+	Traz enorme comodidade para o programador e deixa o desenvovimento mais rápido
