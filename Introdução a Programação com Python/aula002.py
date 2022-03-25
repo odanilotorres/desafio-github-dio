@@ -1,0 +1,25 @@
+# a = 10
+# b = 5
+# soma = a + b
+# subtracao = a - b
+# divisao = int(a / b)
+# multiplicacao = a * b
+# resto = a % b
+# print('Soma = ' + str(soma))
+# print('subtracao = ' + str(subtracao))
+# print('divisao = ' + str(divisao))
+# print('multiplicacao = ' + str(multiplicacao))
+# print("resto = " + str(resto))
+
+a = int(input('Entre o primeiro valor: '))
+b = int(input('Entre o segundo valor: '))
+soma = a + b
+subtracao = a - b
+divisao = int(a / b)
+multiplicacao = a * b
+resto = a % b
+print('Soma = ' + str(soma))
+print('subtracao = ' + str(subtracao))
+print('divisao = ' + str(divisao))
+print('multiplicacao = ' + str(multiplicacao))
+print("resto = " + str(resto))

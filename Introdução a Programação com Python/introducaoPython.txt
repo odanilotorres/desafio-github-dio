@@ -20,3 +20,12 @@ Automação
 	IDEs possuem enermos recursos que facilitam o desenvolvimento de aplicações
 	Funções que são onerosas no dia a dia são simplificadas pelas IDEs
 	Traz enorme comodidade para o programador e deixa o desenvovimento mais rápido
+	
+> Comandos
+print > escrever na tela
+# > comentar
++ > concatenar
+/n > quebra de linha
+input > receber infomação pelo usuário
+if > condicional
+
