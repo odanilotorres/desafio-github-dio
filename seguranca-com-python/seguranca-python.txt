@@ -11,3 +11,17 @@ Biblioteca os > Este módulo fornece uma maneira simples de usar funcionalidades
 
 Biblioteca time > Este módulo fornece várias funçoes realcionadas ao tempo, como por exemplo tempo de execução
 
+
+
+> Introdução a socket e cliente rcp/udp e server
+
+> Biblioteca Socket
+Ela fornece acesso de baixo nível à interface de rede
+o S.O fornece a API socket que relaciona o programa com a rede.
+
+> TCP
+O TCP ou protocolo de controle de transmissão é um dos protocolos de rede de comunicação, que dão suporte a rede global internet, verificando se os dados são enviados na sequencia correta sem erros.
+(Integridade - Princípio que visa proteger a informação de alterações indevidas)
+
+> UDP
+Protocolo de datagrama de usuário é um protocolo simples da camada de transporte que permite que a aplicação envie um datagrama dentro num pacote IPV4 ou IPV6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente.
