@@ -25,3 +25,30 @@ O TCP ou protocolo de controle de transmissão é um dos protocolos de rede de c
 
 > UDP
 Protocolo de datagrama de usuário é um protocolo simples da camada de transporte que permite que a aplicação envie um datagrama dentro num pacote IPV4 ou IPV6 a um destino, porém sem qualquer tipo de garantia que o pacote chegue corretamente.
+
+
+
+> Desenvolvimento de ferramentas
+
+O que é a biblioteca random ?
+Esta biblioteca implementa geradores de números pseudoaleatórios para várias distribuições.
+(Autenticação - Princípio que visa verificar a entidade e suas credenciais)
+(Confidencialidade - Princípio que visa manter uma informação confiável)
+
+O que é o hash ?
+É como se fosse um identificador único gerado através de um algoritmo que vai analisar byte a byte de determinado dado para gerar de forma única, um determinado código que só aquele arquivo terá. Se nesnte mesmo arquivo um único bit for alterado o hash gerada será diferente.
+(Integridade - Princípio que visa proteger a informação de alterações indevidas.)
+
+O que é a hashlib ?
+Esta biblioteca implementa uma interface comum para muitos algoritmos de hash seguro como SHA1, SHA256, MD5 entre outros.
+
+O que é o Multithreading ?
+Thread é o processo e no ambiente multithread, cada processo pode responder a várias solicitações concorrentemente ou mesmo simultaneamente.
+
+O que é thread ?
+Esta biblioteca constrói interfaces de alto nível para processamento usando o módulo Thread, de mais baixo nível, ou seja relação direta com o processador.
+
+O que é ipaddress ?
+Esta biblioteca tem a capacidade de criar, manipular endereços IP do tipo IPV4, IPV6 e até redes interias.
+
+
