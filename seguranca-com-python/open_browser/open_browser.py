@@ -1,7 +1,8 @@
 import webbrowser
 from tkinter import *
 
-root = Tk()
+
+root = Tk( )
 root.title('Abrir Browser')
 root.geometry('300x200')
 
