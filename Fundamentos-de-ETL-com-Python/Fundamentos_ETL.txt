@@ -19,3 +19,6 @@ ETL - Visão Geral
 Data Sources - Diferentes fontes de dados
 Data Flow - Processos de limpeza dos dados e gerenciamento
 BI Results - ferrametnas de análise epgam os dados para gerar alguma informação
+
+> Apps qeu serão utilizados
+https://jupyter.org/
